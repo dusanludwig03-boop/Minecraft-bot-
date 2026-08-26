@@ -1,5 +1,5 @@
 {
-  "name": "minecraft-bot",
+  "name": "minecraft-bedrock-bot",
   "version": "1.0.0",
   "main": "bot_web.js",
   "scripts": {
@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "mineflayer": "^4.21.0"
+    "bedrock-protocol": "^3.26.0"
   }
 }
-
