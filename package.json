@@ -1,5 +1,5 @@
 {
-  "name": "minecraft-bedrock-bot",
+  "name": "aternos-java-bot",
   "version": "1.0.0",
   "main": "bot_web.js",
   "scripts": {
@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "bedrock-protocol": "^3.26.0"
+    "mineflayer": "^4.21.0"
   }
 }
