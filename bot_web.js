@@ -9,9 +9,9 @@ function startBot() {
   if (bot) return 'Bot läuft bereits!'
 
   bot = mineflayer.createBot({
-    host: 'DEINE_SERVER_IP', // <--- Hier die Server-IP eintragen!
-    port: 25565,
-    username: 'WebBot'
+    host: 'BreiwalkerSMP.net', // <--- Hier die Server-IP eintragen!
+    port: 19132,
+    username: 'King73829'
   })
 
   bot.on('spawn', () => console.log('Bot eingeloggt!'))
