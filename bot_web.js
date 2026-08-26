@@ -9,9 +9,9 @@ function startBot() {
   if (client) return 'Bot läuft bereits!'
 
   client = bedrock.createClient({
-    host: 'BreiwalkerSMP.net', // <--- Hier deine Server-IP eintragen
+    host: 'DEINE_BEDROCK_SERVER_IP', // <--- Hier deine Server-IP eintragen
     port: 19132,                     // <--- Hier den Bedrock-Port eintragen
-    username: 'King48297',       // Ein Name ohne ungültige Sonderzeichen
+    username: 'Bot_Floodgate',       // Ein Name ohne ungültige Sonderzeichen
     offline: true,
     // Diese Zusatzdaten simulieren einen echten Bedrock-Spieler über Geyser
     skinData: {
