@@ -8,11 +8,10 @@ let bot = null
 function startBot() {
   if (bot) return 'Bot läuft bereits!'
 
-  bot = mineflayer.createBot({
-    host: 'BreiwalkerSMP.net', // <--- Deine Server-IP
-    port: 19132,             // <--- Dein Server-Port
-    version: '1.26.2',         // <--- Die exakte Version deines Servers
-    auth: 'microsoft'        // <--- Erzwingt den offiziellen Premium-Login
+    bot = mineflayer.createBot({
+    host: 'DEINE_SERVER_IP', 
+    port: 25565,             
+    auth: 'microsoft'        // <--- Zeile 'version' wurde komplett gelöscht!
   })
 
   bot.on('spawn', () => {
