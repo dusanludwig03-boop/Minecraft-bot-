@@ -1,5 +1,5 @@
 {
-  "name": "aternos-java-bot",
+  "name": "premium-java-bot",
   "version": "1.0.0",
   "main": "bot_web.js",
   "scripts": {
@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "mineflayer": "^4.21.0"
+    "mineflayer": "^4.21.0",
+    "prismarine-auth": "^2.3.0"
   }
 }
